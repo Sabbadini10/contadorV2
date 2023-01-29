@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "../../styles/styles.module.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from "../../styles/style.module.css";
 
 function Contador({ numClick }) {
   return <div className={styles.contador}>{numClick}</div>;

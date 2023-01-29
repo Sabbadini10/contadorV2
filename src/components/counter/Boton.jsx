@@ -1,6 +1,7 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from "react-bootstrap";
-import styles from "../../styles/styles.module.css";
+import styles from "../../styles/style.module.css";
 
 function Boton({ manejarClick, reiniciarClick }) {
   // recibimos los props

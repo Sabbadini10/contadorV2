@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "../App";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { RoutesPublic } from "./RoutesPublic";
 
 const router = createBrowserRouter([
